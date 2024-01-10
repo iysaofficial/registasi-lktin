@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(to right, #FFD602 50%, #262521 80%);
+  background: linear-gradient(to right, #ffd602 50%, #262521 80%);
 }
 .container {
   max-width: 700px;
@@ -36,13 +36,13 @@ body {
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #FFD602 , #262521);
+  background: linear-gradient(135deg, #ffd602, #262521);
 }
 /* .content {
   margin-top: 9rem;
 } */
 
-.gam{
+.gam {
   display: flex;
 }
 
@@ -97,7 +97,7 @@ form .input-box span.details {
 .garis-bawah::after {
   position: absolute;
   content: '';
-  background: linear-gradient(135deg, #FFD602 , #262521);
+  background: linear-gradient(135deg, #ffd602, #262521);
   height: 4px;
   width: 100px;
   left: 10%;
@@ -117,17 +117,17 @@ form .input-box span.details {
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
-  border-color: #FFD602;
+  border-color: #ffd602;
 }
 
 .user-details .input-box textarea:focus,
 .user-details .input-box textarea:valid {
-  border-color: #FFD602;
+  border-color: #ffd602;
 }
 
 .user-details .input-box select:focus,
 .user-details .input-box select:valid {
-  border-color: #FFD602;
+  border-color: #ffd602;
 }
 
 form .gender-details .gender-title {
@@ -160,18 +160,18 @@ form .button input {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: linear-gradient(-135deg, #FFD602 , #262521);
+  background: linear-gradient(-135deg, #ffd602, #262521);
 }
 form .button input:hover {
   /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #262521, #FFD602);
+  background: linear-gradient(-135deg, #262521, #ffd602);
 }
 
 @media (max-width: 767px) {
-    .container {
-        margin-top: 100rem;
-      }
+  .container {
+    margin-top: 100rem;
   }
+}
 
 @media (max-width: 584px) {
   .container {
@@ -213,7 +213,7 @@ form .button input:hover {
   .garis-bawah::after {
     position: absolute;
     content: '';
-    background: linear-gradient(135deg, #0000FF, #696969);
+    background: linear-gradient(-135deg, #ffd602, #262521);
     height: 4px;
     width: 100px;
     left: 17%;
@@ -225,7 +225,7 @@ form .button input:hover {
   .garis-bawah::after {
     position: absolute;
     content: '';
-    background: linear-gradient(135deg, #0000FF, #696969);
+    background: linear-gradient(-135deg, #ffd602, #262521);
     height: 4px;
     width: 100px;
     left: 18%;
@@ -237,6 +237,7 @@ form .button input:hover {
   }
   .container {
     margin-top: 1rem;
+    width: 200% !important;
   }
 }
 
@@ -244,7 +245,7 @@ form .button input:hover {
   .garis-bawah::after {
     position: absolute;
     content: '';
-    background: linear-gradient(135deg, #0000FF, #696969);
+    background: linear-gradient(-135deg, #ffd602, #262521);
     height: 4px;
     width: 100px;
     left: 18%;
@@ -259,12 +260,11 @@ form .button input:hover {
   }
 }
 
-
 @media (max-width: 360px) {
   .garis-bawah::after {
     position: absolute;
     content: '';
-    background: linear-gradient(135deg, #0000FF, #696969);
+    background: linear-gradient(-135deg, #ffd602, #262521);
     height: 4px;
     width: 100px;
     left: 20%;
@@ -276,6 +276,8 @@ form .button input:hover {
   }
   .container {
     margin-top: 11rem;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -283,7 +285,7 @@ form .button input:hover {
   .garis-bawah::after {
     position: absolute;
     content: '';
-    background: linear-gradient(135deg, #0000FF, #696969);
+    background: linear-gradient(-135deg, #ffd602, #262521);
     height: 4px;
     width: 100px;
     left: 8.3%;
